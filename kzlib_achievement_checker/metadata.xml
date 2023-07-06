@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>!!!Achievement Checker</name>
+    <directory>kzlib_achievement_checker</directory>
+    <id>3000022680</id>
+    <description>This mod allows you to check what is unlocked with ease!</description>
+    <version>1.1</version>
+    <visibility>Private</visibility>
+    <tag id="Tweaks"/>
+</metadata>
