@@ -1,7 +1,7 @@
 --Licensed under MIT
 --If you wan't to check out the API it's just a few lines below or take a ride to the the github repo (https://github.com/Kevadroz/tboiAchievementUnlocker).
 --For how this works see the checkUnlocks() function, the workshop description and the python script on
---the github repo (https://github.com/Kevadroz/tboiAchievementUnlocker/blob/main/kzlib_achievement_checker/devScripts/genLuaTables.py)
+--the github repo (https://github.com/Kevadroz/tboiAchievementUnlocker/blob/main/devScripts/genStatic.py)
 
 
 local mod = RegisterMod("KZAchievementChecker", 1)
