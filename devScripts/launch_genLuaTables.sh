@@ -1,3 +1,3 @@
 #!/bin/sh
 
-python ./genStatic.py ~/Escritorio/ISAAC/
+python ./genStatic.py ../../IsaacResources

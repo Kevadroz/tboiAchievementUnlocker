@@ -5,22 +5,21 @@
     <id>3000096831</id>
     <description>This mod allows you to check what is unlocked with ease!
 
-As many modders know, Isaac's Mod API does not have a way to check whether any achievement, character, collectible, etc. is unlocked or not. This library allows you to do just that.
+As many modders know, Isaac's Mod API does not have a way to check whether any achievement, character, etc. is unlocked or not. This library allows you to do just that.
 
 [h2]How does it work?[/h2]
-This mod works by adding [strike]637[/strike] items to the game (don't worry, you shouldn't encounter any of these in a run), each tied to one of the game's achievements and [strike]adding them to the 'shellGame' pool[/strike] distributing them between all item pools, then at the start of a new run it tries to generate them along vanilla items and if it succeeds it marks the associated achievement as unlocked. All of the mod's items are romoved from the pools in the process.
+This mod works by adding [strike]637[/strike] 201 items to the game (don't worry, you shouldn't encounter any of these in a run), each tied to one of the game's achievements, then at the start of a new run it checks it's availability along vanilla unlockables and if it succeeds it marks the associated achievement as unlocked.
 
 [h2]Limitations[/h2]
 [list]
-[*]The check is only performed on the start of a new run, so anything unlocked in a run will give a false negative when checked.
+[*]The check is only performed on the start of a new run, new floor or when continuing a run from the file menu.
 [*]May cause TMTrainer items to be more boring (untested)
-[*]Mod characters that start with an unlockable vanilla item may cause false negatives
 [/list]
 
 [h2]Developer Info[/h2]
 Head to the [url=https://github.com/Kevadroz/tboiAchievementUnlocker]GitHub repository[/url] for documentation.
-This mod can't really be embedded inside another due to the 373 collectibles it adds.</description>
-    <version>1.2</version>
+This mod can't really be embedded inside another due to the 201 collectibles it adds.</description>
+    <version>1.3</version>
     <visibility>Public</visibility>
     <tag id="Tweaks"/>
 </metadata>
